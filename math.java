@@ -52,12 +52,13 @@ public class math {
         System.out.println("hypotenuse(double variable (3.0), double variable(4.0))  : "+hypotenuse(3.0,4.0));
         System.out.print("\n\n");
 
-        int d = 29;
+        int d = -13;
         int e = 1;
-        int f = -13;
+        int f = 29;
 
-        System.out.println("Variables                                                : " + d + "      " + e + "      " + f);
-        System.out.println("abs(int variable)                                        : "+abs(d) +"      "+ abs(e) +"       "+ abs(f));
+        System.out.println("Variables                                                : " + d + "      " + e + "       " + f);
+        System.out.println("abs(int variable)                                         : "+abs(d) +"      "+ abs(e) +"       "+ abs(f));
         System.out.println("isPrime(int variable)                                    : "+isPrime(d) +"    "+ isPrime(e) +"   "+ isPrime(f));
+        System.out.println("harmonic(int variable)                                   : "+harmonic(d) +"      "+ harmonic(e) +"     "+ harmonic(f));
     }
 }
