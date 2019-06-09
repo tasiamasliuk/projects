@@ -1,0 +1,3 @@
+Given string S, returns the minimum number of letters thet must be removed in order for the letters of the remaining word to be sorted in lexicographical order.
+String S:
+consists only of lower-case letters (a-z) in range [1..100 000];
