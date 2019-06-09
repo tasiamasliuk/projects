@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Print all the composite numbers till number
-public class Program
+public class Composite_numbers
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
