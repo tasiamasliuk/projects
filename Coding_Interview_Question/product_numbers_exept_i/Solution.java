@@ -3,6 +3,7 @@ public class Solution {
     // of the new array is the product of all the numbers in the original array
     // except the one at i.
     
+    //brute force solution O(n^2)
     public static int[] new_arrey(int[] arrey){
         int count = 0;
         int[] a = new int[arrey.length];
@@ -17,7 +18,8 @@ public class Solution {
         System.out.println("counter: " + count);
         return a;
     }
-
+    
+    //O(n * n/2)
     public static int[] new_arrey2(int[] arrey){
         int count = 0;
         int[] a = new int[arrey.length];
