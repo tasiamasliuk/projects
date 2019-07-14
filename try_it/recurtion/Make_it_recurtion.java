@@ -20,10 +20,10 @@ public class Make_it_recurtion {
     }
 
     public static void main(String[] args) {
-        System.out.println("Fibanacci 5th number: " + fibanacci(5));
-        System.out.println("Fibanacci 15th number: " + fibanacci(15));
-        System.out.println("Fibanacci 2th number: " + fibanacci(2));
-        System.out.println("Fibanacci 3th number: " + fibanacci(3));
+        System.out.println("Fibonacci 5th number: " + fibanacci(5));
+        System.out.println("Fibonacci 15th number: " + fibanacci(15));
+        System.out.println("Fibonacci 2th number: " + fibanacci(2));
+        System.out.println("Fibonacci 3th number: " + fibanacci(3));
 
         System.out.println();
         System.out.println("Factorial 5th number: " + factorial(5));
