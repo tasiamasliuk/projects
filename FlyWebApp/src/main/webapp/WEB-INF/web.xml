@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SqlServlet</servlet-name>
+  	<display-name>SqlServlet</display-name>
+  	<description></description>
+  	<servlet-class>SqlServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login_passenger</servlet-name>
+  	<display-name>Login_passenger</display-name>
+  	<description></description>
+  	<servlet-class>controller.Login_passenger</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TicketOrderServlet</servlet-name>
+  	<display-name>TicketOrderServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.TicketOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SqlServlet</servlet-name>
+  	<url-pattern>/main/java/controller/SqlServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login_passenger</servlet-name>
+  	<url-pattern>/main/java/controller/Login_passenger</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TicketOrderServlet</servlet-name>
+  	<url-pattern>/main/java/controller/TicketOrderServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
